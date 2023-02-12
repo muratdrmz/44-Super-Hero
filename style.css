@@ -1,0 +1,49 @@
+body{
+ margin: 0;
+ padding: 0;
+ background-color: aliceblue;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container{
+background-color: aquamarine;
+height: 70vh;
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 4px 10px 8px rgba(0, 0, 0, .5);
+}
+
+.input{
+ margin: 10px;
+ padding: 10px 20px;
+ border: none;
+ outline: none;
+}
+
+.search{
+ margin: 10px;
+ padding: 10px 20px;
+ background-color: aliceblue;
+ border: none;
+ box-shadow: 4px 8px 8px ;
+}
+
+.search:hover{
+ opacity: .8;
+}
+
+.search:active{
+ transform: scale(90%);
+}
+
+.heroImg{
+ height: 100px;
+ width: 100px;
+}
+
